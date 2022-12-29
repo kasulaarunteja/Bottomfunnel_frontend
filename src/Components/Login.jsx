@@ -105,7 +105,7 @@ const Login = () => {
           <h3 className="Auth-form-title">Sign In</h3>
           <div className="text-center">
             Not registered yet?
-            <Link to="singup">
+            <Link to="/sing">
               <span className="link-primary">Sign Up</span>
             </Link>
           </div>
