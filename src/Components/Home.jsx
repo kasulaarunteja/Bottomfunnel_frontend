@@ -11,7 +11,7 @@ const Home = () => {
 
 
   const fetchData = () => {
-    return fetch("http://localhost:8080/posttitle")
+    return fetch("https://elegant-jersey-hen.cyclic.app/posttitle")
     .then((res) => res.json())
     .then((data) => setGetdata(data))
   }
@@ -36,7 +36,7 @@ const Home = () => {
     };
     axios
       .post(
-        "http://localhost:8080/posttitle",
+        "https://elegant-jersey-hen.cyclic.app/posttitle",
         admin,
         axiosConfig
       )

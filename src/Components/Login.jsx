@@ -88,7 +88,7 @@ const Login = () => {
     const handleClick = (e) =>{
         e.preventDefault();
         setLogin(false);
-        axios.post("http://localhost:8080/login", user).then((res) => {
+        axios.post("https://elegant-jersey-hen.cyclic.app/login", user).then((res) => {
             // console.log(res.data);
             setLogin(true);
             alert("login Successful")
