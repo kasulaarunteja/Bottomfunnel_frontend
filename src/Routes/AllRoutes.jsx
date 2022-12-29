@@ -7,8 +7,8 @@ import Singin from '../Components/singin';
 const AllRoures = () => {
     return (
         <Routes>
-            <Route path='/login' element={<Login/>}/>
-            <Route path='/' element={<Singin/>}/>
+            <Route path='/' element={<Login/>}/>
+            <Route path='/sing' element={<Singin/>}/>
             <Route path="/home" element={<Home/>}/>
         </Routes>
     );
